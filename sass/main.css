@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  color: white;
+  font-family: "Figtree", sans-serif;
+}
+
+.conatiner {
+  width: 20rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 7%);
+  margin: auto;
+  margin-top: 20vh;
+  border-radius: 15px;
+  border: solid hsl(0, 0%, 7%) 1px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 hsl(0, 0%, 7%);
+}
+.conatiner .illus {
+  margin-right: auto;
+  display: block;
+  width: 17.6em;
+  height: auto;
+  border-radius: 13px;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+.head-fonts {
+  margin-left: 1em;
+  padding-left: 1em;
+  padding-right: 1.5em;
+}
+.head-fonts h5 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.76em;
+}
+.head-fonts h1 {
+  font-weight: 800;
+  font-size: 1em;
+}
+.head-fonts h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+.head-fonts .note {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  margin-top: 1.4em;
+}
+.learning p {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  font-size: 0.87em;
+  font-weight: 800;
+  letter-spacing: 0.002em;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1.6em;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+.profile img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.profile p {
+  font-weight: 800;
+  font-size: 0.9em;
+}/*# sourceMappingURL=main.css.map */
